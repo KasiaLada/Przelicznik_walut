@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik walut</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <h1>Przelicznik walut</h1>
+    <div class="container">
+        <input id ="input" value="" type="number" placeholder="Wpisz kwotę" />
+        <select id="currency" name="currency">
+            <option value="eur">EUR</option>
+            <option value="usd">USD</option>
+            <option value="chf">CHF</option>
+        </select>
+        <button id="calculate">Przelicz</button>
+        <p class="result">
+            To <span id="calculateResult">0</span> PLN
+        </p>
+    </div>
+    <script src="index.js"></script>
+  </script>
+</body>
+</html>
